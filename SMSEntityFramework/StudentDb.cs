@@ -24,6 +24,12 @@ namespace SMSEntityFramework
                 (from s in context.Students
                  orderby s.StudentId ascending
                  select s).ToList();
+
+            // LINQ Method Syntax
+            List<Student> students2 = context.Students
+                .OrderBy(stu => stu.StudentId)
+                .ToList();
+
             return students;
         }
     }
