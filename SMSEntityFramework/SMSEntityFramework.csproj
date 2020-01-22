@@ -64,11 +64,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001222216497_AddedStudents.cs" />
+    <Compile Include="Migrations\202001222216497_AddedStudents.designer.cs">
+      <DependentUpon>202001222216497_AddedStudents.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="StudentContext.cs" />
+    <EmbeddedResource Include="Migrations\202001222216497_AddedStudents.resx">
+      <DependentUpon>202001222216497_AddedStudents.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
