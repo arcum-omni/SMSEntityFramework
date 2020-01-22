@@ -32,5 +32,14 @@ namespace SMSEntityFramework
 
             return students;
         }
+
+        public static Student Add(Student stu)
+        {
+            StudentContext context = new StudentContext();
+            context.Students.Add(stu);// Preparing insert query
+            context.SaveChanges();    // Execute insert query against DB
+
+            return stu;               // Return student with StudentId set
+        }
     }
 }
