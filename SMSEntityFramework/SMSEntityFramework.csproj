@@ -73,6 +73,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="StudentContext.cs" />
+    <Compile Include="StudentDb.cs" />
     <EmbeddedResource Include="Migrations\202001222216497_AddedStudents.resx">
       <DependentUpon>202001222216497_AddedStudents.cs</DependentUpon>
     </EmbeddedResource>
