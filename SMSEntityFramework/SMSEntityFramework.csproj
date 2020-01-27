@@ -74,6 +74,9 @@
     <Compile Include="Student.cs" />
     <Compile Include="StudentContext.cs" />
     <Compile Include="StudentDb.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001222216497_AddedStudents.resx">
       <DependentUpon>202001222216497_AddedStudents.cs</DependentUpon>
     </EmbeddedResource>
