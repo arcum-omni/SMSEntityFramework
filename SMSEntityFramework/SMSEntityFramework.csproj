@@ -68,6 +68,18 @@
     <Compile Include="Migrations\202001222216497_AddedStudents.designer.cs">
       <DependentUpon>202001222216497_AddedStudents.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001292128343_AlteredStudent.cs" />
+    <Compile Include="Migrations\202001292128343_AlteredStudent.designer.cs">
+      <DependentUpon>202001292128343_AlteredStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001292142170_AltStuDataTypes.cs" />
+    <Compile Include="Migrations\202001292142170_AltStuDataTypes.designer.cs">
+      <DependentUpon>202001292142170_AltStuDataTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001292145386_AltStuFullNameReq.cs" />
+    <Compile Include="Migrations\202001292145386_AltStuFullNameReq.designer.cs">
+      <DependentUpon>202001292145386_AltStuFullNameReq.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -79,6 +91,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001222216497_AddedStudents.resx">
       <DependentUpon>202001222216497_AddedStudents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001292128343_AlteredStudent.resx">
+      <DependentUpon>202001292128343_AlteredStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001292142170_AltStuDataTypes.resx">
+      <DependentUpon>202001292142170_AltStuDataTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001292145386_AltStuFullNameReq.resx">
+      <DependentUpon>202001292145386_AltStuFullNameReq.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -36,7 +36,7 @@ namespace SMSEntityFramework
 
         public static Student Add(Student stu)
         {
-            // Check Panopto video to see how to wrap using around this.
+            // Check Panopto video 1/27 to see how to wrap using around this.
             StudentContext context = new StudentContext();
             context.Students.Add(stu);// Preparing insert query
             context.SaveChanges();    // Execute insert query against DB
